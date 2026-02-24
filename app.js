@@ -1,5 +1,6 @@
 console.log('MedVerify: app.js loaded');
 
+
 const appData = {
     "treatments": [
         {
@@ -186,3 +187,4 @@ if (document.readyState === 'loading') {
 } else {
     initApp();
 }
+
