@@ -1,0 +1,67 @@
+{
+  "treatments": [
+    {
+      "id": "T001",
+      "name": "Angioplasty",
+      "details": "Surgical repair or unblocking of a blood vessel, especially a coronary artery.",
+      "govt_price": 95000,
+      "avg_private_price": 180000,
+      "rules": "CGHS - Coronary Angioplasty with stent (inclusive of stent cost as per ceiling)."
+    },
+    {
+      "id": "T002",
+      "name": "Appendectomy",
+      "details": "Surgical removal of the appendix.",
+      "govt_price": 25000,
+      "avg_private_price": 65000,
+      "rules": "PM-JAY - Standard Laparoscopic Appendectomy package."
+    },
+    {
+      "id": "T003",
+      "name": "Cataract Surgery",
+      "details": "Removal of the lens of the eye and replacement with an artificial lens.",
+      "govt_price": 12000,
+      "avg_private_price": 45000,
+      "rules": "CGHS - IOL Implantation (Folder IOL) per eye."
+    },
+    {
+      "id": "T004",
+      "name": "Hernia Repair",
+      "details": "Surgical operation for the correction of a hernia.",
+      "govt_price": 35000,
+      "avg_private_price": 85000,
+      "rules": "PM-JAY - Inguinal Hernia (Unilateral) with Mesh."
+    },
+    {
+      "id": "T005",
+      "name": "Knee Replacement",
+      "details": "Surgical procedure to replace the weight-bearing surfaces of the knee joint.",
+      "govt_price": 160000,
+      "avg_private_price": 350000,
+      "rules": "CGHS - Total Knee Replacement (Unilateral) including implant."
+    }
+  ],
+  "bills": [
+    {
+      "bill_no": "BILL-101",
+      "patient": "John Doe",
+      "hospital": "City Care Hospital",
+      "treatment_id": "T001",
+      "hospital_charge": 195000
+    },
+    {
+      "bill_no": "BILL-102",
+      "patient": "Jane Smith",
+      "hospital": "Global Health Center",
+      "treatment_id": "T002",
+      "hospital_charge": 72000
+    },
+    {
+      "bill_no": "BILL-103",
+      "patient": "Robert Brown",
+      "hospital": "Apex Medical Institute",
+      "treatment_id": "T003",
+      "hospital_charge": 55000
+    }
+  ]
+}

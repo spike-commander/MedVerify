@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedVerify | Hospital Bill Transparency</title>
+    <meta name="description" content="Verify hospital treatment prices against government-mandated rates with ease.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="container">
+            <h1 class="logo">Med<span>Verify</span></h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Verify Bill</a></li>
+                <li><a href="#pricing">Price List</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="glass-card hero-card">
+                    <h2>Verify Your Treatment Cost</h2>
+                    <p>Enter your hospital bill number to check if you were charged as per government-mandated rates.
+                    </p>
+                    <div class="search-box">
+                        <input type="text" id="bill-input" placeholder="Enter Bill No (e.g., BILL-101)"
+                            autocomplete="off">
+                        <button id="verify-btn">Verify Now</button>
+                    </div>
+                    <div id="status-indicator" class="hidden">
+                        <div class="spinner"></div>
+                        <span>Recognizing Treatment...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="results" class="results-section hidden">
+            <div class="container">
+                <div id="bill-result-card" class="glass-card result-card">
+                    <!-- Dynamic content injected by app.js -->
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="section-header">
+                    <h3>Government Treatment Rates</h3>
+                    <div class="search-bar">
+                        <input type="text" id="treatment-search" placeholder="Search treatment (e.g. Heart Surgery)">
+                    </div>
+                </div>
+                <div id="pricing-grid" class="pricing-grid">
+                    <!-- Dynamic content injected by app.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MedVerify. All data based on CGHS and PM-JAY standardized rates.</p>
+        </div>
+    </footer>
+
+    <script src="app.js?v=3"></script>
+</body>
+
+</html>
