@@ -1,0 +1,19 @@
+# Hospital Bill Recognition Site Walkthrough
+
+I have created MedVerify, a premium web platform designed to provide transparency for hospital billing based on government-mandated rates (CGHS/PM-JAY).
+
+## Key Features
+
+1.  **Bill Verification**: Users can enter a hospital bill number (e.g., `BILL-101`) to automatically recognize the treatment and compare hospital charges against government rates.
+2.  **Price Transparency Grid**: A searchable list of common treatments with their government-mandated prices and typical private hospital savings.
+3.  **Premium Design**: A modern, glassmorphic UI with animated background blobs, responsive layouts, and smooth transitions.
+
+## How to Use
+
+1.  Open [index.html](file:///f:/HOSPITAL-BILL-RECOGNITION/index.html) in any modern web browser.
+2.  To test bill recognition, enter **BILL-101**, **BILL-102**, or **BILL-103**.
+3.  Use the "Treatment Rates" section to search for specific procedures like "Heart" or "Appendectomy".
+
+---
+> [!NOTE]
+> The application uses embedded data to avoid CORS issues when running locally. In a production environment, this would be connected to a secure backend API.
